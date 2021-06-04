@@ -142,6 +142,11 @@ p {
     justify-content: center;
 }
 
+/*Expands box when hovered over*/
+.boxes .box:hover {
+    flex-grow: 1;
+}
+
 /*Changes the color of each child box*/
 .boxes .box:first-child {
     background-color: teal;
@@ -228,7 +233,7 @@ footer nav a {
 /*Resizes the text within the about section*/
 .aboutSection h2, p {
     width: 93%;
-    margin: 0 0 3%;
+    margin: 0 0 4%;
 }
 
 /*
